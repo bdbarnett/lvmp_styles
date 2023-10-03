@@ -39,8 +39,11 @@ style_set1 = {
     },
     lv.btn: {
         lv.STATE.DEFAULT | lv.PART.MAIN: sd.btn_default_style,
-        lv.STATE.FOCUSED | lv.PART.MAIN: sd.btn_focused_style,
+        lv.STATE.FOCUSED | lv.PART.MAIN: sd.focused_style,
+        lv.STATE.FOCUS_KEY | lv.PART.MAIN: sd.focus_key_style,
+        lv.STATE.EDITED | lv.PART.MAIN: sd.edited_style,
         lv.STATE.PRESSED | lv.PART.MAIN: sd.btn_pressed_style,
+        lv.STATE.CHECKED | lv.PART.MAIN: sd.btn_checked_style,
     },
     lv.btnmatrix: {
         lv.STATE.DEFAULT | lv.PART.MAIN: sd.btn_matrix_style,
